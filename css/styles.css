@@ -1,0 +1,243 @@
+
+:root{
+	--text-color:#1B1D1F
+}
+
+html,
+body{
+	height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+	width: 1170px;
+	margin: 0 auto;
+	height: 100%;
+	position: relative;
+}
+.main-page{
+	height: 100%;
+	background:linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+	display: flex;
+	flex-direction: column;
+}
+.header{
+	margin-top:34px;
+	margin-bottom:58px;
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.logo-text{
+	margin-left: 18px;
+}
+.banderogus-title{
+	color: #1B1D1F;
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 72px;
+	margin-bottom: 24px;
+}
+.banderogus-container{
+	background:#FCFEFF;
+	padding: 60px 56px;
+	align-self: center;
+}
+.banderogus-greeting{
+	font-weight: 600px;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 16px;
+}
+.banderogus-start-text{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 24px;
+	color: #FF6B0A;
+	margin-bottom: 48px;
+}
+.banderogus-discription{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 48px;
+}
+.banderogus-launch{
+	color: #FCFEFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	width: 172px;
+	height: 48px;
+	background: #FF6B0A;
+	border-radius: 8px;
+}
+.main-page-row{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+.banderogus-image{
+	align-self: flex-end;
+}
+
+
+
+.gus-facts{
+	padding: 52px 0 72px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.gus-title{
+	font-weight: 600;
+	line-height: 100px;
+	font-size: 48px;
+	color: #1B1D1F;
+	margin: 16px 0 ;
+}
+.gus-discription{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: center;
+	color: #1B1D1F;
+	width: 875px;
+}
+.gus-facts-row{
+	width: 1170px;
+	display: flex;
+	justify-content: space-between;
+}
+.gus-fact-item{
+	width: 23%
+}
+.gus-fact-title{
+	margin: 12px 0px 32px 0px;
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 24px;
+}
+.gus-fact-description{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	width: 280px;
+}
+.victory-footer{
+	display: flex;
+	justify-content: center;
+}
+.victory-background{
+	padding: 72px 0 72px 0;
+	width: 1170px;
+	background: linear-gradient(270deg, #C1E8FF 0%, #FFFFFF 100%);
+	margin-bottom: 72px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.ukr-logo{
+	margin-bottom: 16px;
+}
+.victory-title{
+	font-weight: 600;
+	line-height: 100px;
+	font-size: 48px;
+	margin-bottom: 16px;
+	color: var(--text-color);
+}
+.victory-decription{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	text-align: center;
+	width: 875px;
+	color: var(--text-color);
+}
+.modal-background{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgb(27 29  31 /70%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	opacity: 0;
+	pointer-events: none;
+
+	transition: all 0.3s ease-in-out ;
+}
+.modal-form{	
+	color: var(--text-color);
+	display: flex;	flex-direction: column;
+	align-items: center;
+}
+.modal-form-container{
+	background-color: #FFFFFF;
+	padding: 30px 92px 60px 92px;
+	position: relative;
+}
+.modal-form-title{
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 24px;
+	color: #000000;
+	margin: 32px 0 12px 0px;
+}
+.modal-form-discription{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	color: #000000;
+	margin-bottom: 24px;
+}
+.modal-field-form{
+	width: 100%;
+	display: flex;	flex-direction: column;
+	margin-bottom: 16px;
+}
+.modal-field-name{
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+.modal-field-input{
+	height: 48px;
+	border: 1px solid #005BBB;
+	border-radius: 8px;
+	font-weight: 400;
+	line-height: 24px;
+	font-size: 16px;
+	color: #000000;
+	padding: 4px 8px;
+}
+.modal-form-btn{
+	width: 172px;
+	height: 48px;
+	background: #FF6B0A;
+	border-radius: 8px;
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 40px;
+}
+.close-btn{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 20px;
+	color: #1B1D1F;
+	cursor: pointer;
+	border: 0;
+	background: none;
+}
+.modal-active{
+	opacity: 1;
+	pointer-events: all;
+}
